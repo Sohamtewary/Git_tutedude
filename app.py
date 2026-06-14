@@ -8,7 +8,7 @@ app = Flask(__name__)
 MONGO_URI = "mongodb+srv://tewarysoham_db_user:tewarysoham_db_user@sohammongo.ri8ohfw.mongodb.net/?appName=sohammongo"
 client = MongoClient(MONGO_URI)
 
-#main code
+#modifying to create merge conflict
 db = client['tutedude']
 users_collection = db['tdmongo']
 
