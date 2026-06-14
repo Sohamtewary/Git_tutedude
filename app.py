@@ -10,6 +10,7 @@ client = MongoClient(MONGO_URI)
 
 
 #new
+#f1 changes
 db = client['tutedude']
 users_collection = db['tdmongo']
 
