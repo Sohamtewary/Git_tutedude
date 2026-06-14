@@ -10,7 +10,7 @@ client = MongoClient(MONGO_URI)
 
 
 #new
-#f1 changes
+#creating merge conflict from new branch
 db = client['tutedude']
 users_collection = db['tdmongo']
 
